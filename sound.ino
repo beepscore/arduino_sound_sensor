@@ -4,6 +4,11 @@
 http://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound-levels
  ****************************************/
 
+// Pin 13 has an LED connected
+int led = 13;
+
+int mvMax = 100;
+
 // if sampleWindow == 50, barGraph printing doesn't work correctly
 // Sample window width in mS (50 mS = 20 Hz)
 const int sampleWindow = 1000;
@@ -17,6 +22,8 @@ char barGraph[barLengthTotal] = "";
 void setup() 
 {
     Serial.begin(9600);
+    // initialize the digital pin as an output.
+    pinMode(led, OUTPUT);
 }
 
 
@@ -52,6 +59,13 @@ void loop()
     int millivolts = int(1000 * (3.3 * peakToPeak) / 1024);
 
     Serial.println(millivolts);
+    if (millivolts > mvMax) {
+        // turn the LED on (HIGH is the voltage level)
+        digitalWrite(led, HIGH);
+    } else {
+        // turn the LED off by making the voltage LOW
+        digitalWrite(led, LOW);
+    }
 
     barLength = int(millivolts/10);
     for (int i = 0; i < barLengthTotal; i++) {
