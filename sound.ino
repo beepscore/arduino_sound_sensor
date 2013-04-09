@@ -11,7 +11,7 @@ const int sampleWindow = 1000;
 unsigned int sample;
 
 int barLength = 0;
-const int barLengthTotal = 40;
+const int barLengthTotal = 120;
 char barGraph[barLengthTotal] = "";
 
 void setup() 
