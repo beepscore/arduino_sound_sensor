@@ -5,9 +5,9 @@ http://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound
  ****************************************/
 
 // Pin 13 has an LED connected
-int led = 13;
+const int led = 13;
 
-int mvMax = 100;
+const int mvMax = 100;
 
 // if sampleWindow == 50, barGraph printing doesn't work correctly
 // Sample window width in mS (50 mS = 20 Hz)
