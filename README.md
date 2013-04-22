@@ -17,3 +17,11 @@ http://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound
 
 # Results
 Copied file from Adafruit and modified to log bar graph.
+
+## Hardware Connect
+
+| Sensor | Arduino Duemilanove Pin |
+| ------ | ----------------------- |
+| VCC    | 3V                      |
+| GND    | GND                     |
+| OUT    | AIN0                    |
