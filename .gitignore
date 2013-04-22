@@ -1,0 +1,24 @@
+# Reference
+# https://github.com/github/gitignore
+
+.svn
+.DS_Store
+*.swp
+
+# github gitignore C and C++
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Libraries
+*.lib
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
