@@ -1,12 +1,19 @@
 # Purpose
-Record sound level.
+Sense sound using Arduino.
 
 # References
-Measuring Sound Levels by Bill Earl
-http://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound-levels
+http://learn.adafruit.com/adafruit-microphone-amplifier-breakout/overview
 
 # Equipment
-Arduino Duemilanove "2009"
+## Hardware
+Arduino Duemilanove "2009"  
 
 Electret Microphone Amplifier - MAX4466 with Adjustable Gain
 Adafruit ID: 1063
+
+## Software
+Measuring Sound Levels by Bill Earl
+http://learn.adafruit.com/adafruit-microphone-amplifier-breakout/measuring-sound-levels
+
+# Results
+Copied file from Adafruit and modified to log bar graph.
