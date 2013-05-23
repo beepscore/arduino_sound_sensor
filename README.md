@@ -6,7 +6,7 @@ http://learn.adafruit.com/adafruit-microphone-amplifier-breakout/overview
 
 # Equipment
 ## Hardware
-Arduino Duemilanove "2009"  
+Arduino Duemilanove w/ ATmega328 (Duemilanove="2009")
 
 Electret Microphone Amplifier - MAX4466 with Adjustable Gain
 Adafruit ID: 1063
